@@ -103,3 +103,40 @@ DevOps:
 3. **Довести до конца > сделать много:** 5 завершённых модулей ценнее 10 незаконченных
 4. **Современные инструменты** DeepSeek помогает с рутиной (тесты, фронтенд), освобождая время для архитектурных решений
 
+```mermaid
+graph TB
+    subgraph Frontend
+        React[React App]
+    end
+    
+    subgraph Backend
+        Gateway[API Gateway]
+    end
+    
+    subgraph Microservices
+        Sample[sample-service]
+        Analyze[analyze-service]
+        Analytics[analytics-service]
+    end
+    
+    subgraph Databases
+        PostgreSQL[(PostgreSQL)]
+        Redis[[Redis]]
+    end
+    
+    User[Пользователь] --> React
+    React --> Gateway
+    
+    Gateway --> Sample
+    Gateway --> Analyze
+    Gateway --> Analytics
+    
+    Sample --> PostgreSQL
+    Sample --> Redis
+    
+    Analytics --> PostgreSQL
+    Analyze --> PostgreSQL
+    
+    Analyze -.-> Analytics
+    Analyze -.-> Sample
+```
