@@ -33,8 +33,8 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 | 🧩 | Проект | Демо | Код | Технологии | Что внутри |
 |-|--------|------|-----|------------|------------|
-| 🌙 | [Форум **Night Coder**](https://nightcoder.rdeaps.com) | [👉 Демо](https://nightcoder.rdeaps.com) |  [📁 GitHub](https://github.com/bravekirty/NightCoder) | `Django` `PostgreSQL` `Docker` `CI/CD` | **SOLID**, тесты 85%+, модули |
-| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [📁 GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **Микросервисы**, async, AI анализ |
+| 🌙 | [Форум **Night Coder**](https://nightcoder.rdeaps.com) | [👉 Демо](https://nightcoder.rdeaps.com) |  [GitHub](https://github.com/bravekirty/NightCoder) | `Django` `PostgreSQL` `Docker` `CI/CD` | **SOLID**, тесты 85%+, модули |
+| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **Микросервисы**, async, AI анализ |
 
 </div>
 
