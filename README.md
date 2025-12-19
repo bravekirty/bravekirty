@@ -242,7 +242,7 @@ graph TB
 | **Databases** | PostgreSQL, Redis, ORM оптимизация, миграции |
 | **DevOps** | Docker, Docker Compose, Kubernetes (Minikube), Nginx, Gunicorn, VPS |
 | **Frontend** | HTML/CSS, JavaScript, Bootstrap, React (базово), Tailwind CSS |
-| **Tools** | Git, GitHub Actions, Poetry, Ruff, pytest, Linux basics |
+| **Tools** | Git, GitHub Actions (CI/CD), Poetry, Ruff, pytest, Linux basics |
 | **Архитектура** | SOLID, Clean Code, Микросервисы, Repository Pattern, API Design |
 
 
