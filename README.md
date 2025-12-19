@@ -1,6 +1,3 @@
-
-
-
 # Тарасов Кирилл | Python Backend Developer | 17 лет
 
 *Создаю работающие приложения из идей. Полный цикл: от архитектуры до продукта, работающего на VPS*
@@ -11,7 +8,7 @@ def build_project(idea: Concept) -> DeployedSystem:
     """
     От проектирования до production-деплоя.
     """
-    architecture = design_architecture()  # SOLID, Clean Code, Микросервисы
+    architecture = design_architecture()  # SOLID, Clean Code, Микросервисы, IaC
     backend = implement_backend()         # Python, Django/FastAPI, PostgreSQL
     tests = optimize_and_test()           # Pytest, CI/CD, 85%+ coverage
     containers = containerize()           # Docker, Docker Compose
@@ -21,7 +18,7 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 ```
 
-**Основной стек:** `Python` `Django` `FastAPI` `PostgreSQL` `Docker` `K8S` `Nginx` `Gunicorn` `VPS`
+**Основной стек:** `Python` `Django` `FastAPI` `PostgreSQL` `Docker` `K8s` `Nginx` `Gunicorn` `VPS`
 
 [![Telegram](https://img.shields.io/badge/Telegram-@bravekirty-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bravekirty)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B7_909_655_2008-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+79096552008)  
@@ -36,8 +33,8 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 | 🧩 | Проект | Демо | Код | Технологии | Что внутри |
 |-|--------|------|-----|------------|------------|
-| 🌙 | [Форум **Night Coder**](https://nightcoder.rdeaps.com) | [👉 Демо](https://nightcoder.rdeaps.com) |  [GitHub](https://github.com/bravekirty/NightCoder) | `Django` `PostgreSQL` `Docker` `CI/CD` | **SOLID**, тесты 85%+, модули |
-| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **Микросервисы**, async, AI анализ |
+| 🌙 | [Форум **Night Coder**](https://nightcoder.rdeaps.com) | [👉 Демо](https://nightcoder.rdeaps.com) |  [GitHub](https://github.com/bravekirty/NightCoder) | `Django` `PostgreSQL` `Docker` `CI/CD` | **[SOLID](https://github.com/bravekirty/NightCoder/blob/main/django_forum/core/SOLID.md)**, тесты 85%+, модули |
+| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **[Микросервисы](https://github.com/bravekirty/NightCoder/blob/main/django_forum/core/SOLID.md)**, async, AI анализ |
 
 </div>
 
@@ -45,14 +42,15 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 ## 🌙 Night Coder Django форум
 
-![Django](https://img.shields.io/badge/Django-5.2-092E20?logo=django)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-4169E1?logo=postgresql)
-![Docker](https://img.shields.io/badge/Docker-Enabled-2496ED?logo=docker)
 ![CI/CD](https://github.com/bravekirty/NightCoder/actions/workflows/ci.yml/badge.svg)
+![Django](https://img.shields.io/badge/Django-5.2-092E20?logo=django)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?logo=postgresql)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker)
+![Ruff](https://img.shields.io/badge/Ruff-14-D0FF75?logo=ruff)
 
 **🔗 [Демо](https://nightcoder.rdeaps.com) | [Код](https://github.com/bravekirty/NightCoder) | [SOLID реализация](https://github.com/bravekirty/NightCoder/blob/main/django_forum/core/SOLID.md)**
 
-> Полнофункциональная платформа для сообщества разработчиков с системой репутации, развернутое на моём VPS.
+> Полнофункциональная платформа для сообщества разработчиков с системой репутации.
 
 ### 🎯 Ключевые компетенции:
 
@@ -62,6 +60,132 @@ def build_project(idea: Concept) -> DeployedSystem:
 | **Production** | Развернуто на моём VPS (Nginx, Gunicorn, SSL) | Полный контроль над инфраструктурой |
 | **Качество кода** | 85%+ тестов, CI/CD, чистая история коммитов | Профессиональный подход к разработке |
 | **Завершённые модули** | Аутентификация, Форум, Отзывы, Лидерборды | Способность доводить до production |
+
+### 🏗️ **Технические особенности:**
+
+```yaml
+Архитектура:
+  - Монолит с чистыми слоями
+  - Система голосования: Repository + Service pattern
+  - Модульная структура: разделение на apps (forum, reviews, users, votes)
+
+База данных:
+  - PostgreSQL 17 с оптимизированными индексами
+  - Оптимизированные запросы через ORM
+
+DevOps:
+  - Docker + Docker Compose
+  - CI: тесты и линтинг
+  - VPS: Gunicorn, Nginx, SSL
+
+Фронтенд:
+  - Bootstrap 5 + кастомный CSS
+  - Темная тема, адаптивный дизайн
+  - JavaScript для интерактива
+  - Поддержка русского и английского языка
+```
+
+### 📈 **Цифры и факты:**
+
+- ✅ **85%+ покрытие тестами** ключевой бизнес-логики
+- ✅ **80+ коммитов** с осмысленными сообщениями
+- ✅ **5+ месяцев** работы без критических багов в production
+- ✅ **Полный production стек:** Django + PostgreSQL + Docker + Gunicorn + Nginx
+- ✅ **SOLID-архитектура** с документацией и примерами
+- ✅ **CI/CD пайплайн:** тесты + линтинг при каждом коммите
+
+### 📚 **Что я вынес из проекта:**
+
+1. **SOLID это как детальки LEGO:**
+    - Каждая "деталька" (класс) делает одну вещь
+    - Все детальки соединяются стандартным образом
+    - Можно собрать что угодно из одних и тех же деталек
+    - Гораздо проще поддерживать, тестировать и добавлять новый функционал
+2. **Разобрался в production:** настроить проект на VPS проще, чем кажется
+3. **Довести до конца > сделать много:** 5 завершённых модулей ценнее 10 незаконченных
+4. **Современные инструменты:** DeepSeek помогает с рутиной (тесты, фронтенд), освобождая время для архитектурных решений
+
+
+---
+
+## 🖼️ Image Tag Analyzer
+
+![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009689?logo=fastapi)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17-336791?logo=postgresql)
+![Redis](https://img.shields.io/badge/Redis-7-FF443B?logo=redis)
+![React](https://img.shields.io/badge/React-19-61DAFB?logo=react)
+![Docker](https://img.shields.io/badge/Docker-Containers-2496ED?logo=docker)
+![K8s](https://img.shields.io/badge/K8s-1.30.5-326DE6?logo=kubernetes)
+
+**🔗 [Демо](https://imagetaganalyzer.rdeaps.com) | [Код](https://github.com/bravekirty/ImageTagAnalyzer)**
+
+> Загрузи картинку и узнай что искусственный интеллект видит на ней!
+
+### 🎯 Ключевые компетенции:
+
+| Область | Что реализовано | Почему это важно |
+|---------|----------------|------------------|
+| **Архитектура** | Микросервисы (API Gateway + 3 сервиса) | Умение проектировать распределённые системы с чёткими контрактами |
+| **Оркестрация** | Развёртывание в Kubernetes | Опыт работы с промышленными инструментами контейнеризации, умение описывать инфраструктуру как код (IaC) |
+| **Async & Cache** | Асинхронные endpoints, кеширование в Redis | Умение работать с I/O-bound задачами и повышать отзывчивость |
+| **Full-Stack** | FastAPI backend + React SPA frontend | Понимание полного цикла от API до интерактивного интерфейса |
+
+
+### 📐 Схема микросервисной архитектуры
+
+<details>
+<summary>👉 Нажми сюда чтобы посмотреть 👈</summary>
+
+```mermaid
+
+graph TB
+    subgraph "Frontend (React)"
+        UI[Пользовательский интерфейс]
+    end
+    
+    subgraph "API Gateway (FastAPI)"
+        GW[Единая точка входа]
+    end
+    
+    subgraph "Микросервисы (FastAPI)"
+        S1[analyze-service<br/>Загрузка + AI анализ]
+        S2[analytics-service<br/>Статистика тегов]
+        S3[sample-service<br/>Демо-режим]
+    end
+    
+    subgraph "Data Layer"
+        DB[(PostgreSQL<br/>Основные данные)]
+        Cache[["Redis<br/>Кеш + демо"]]
+        ExtAPI[[Imagga API<br/>Внешний сервис AI]]
+    end
+    
+    UI -- "HTTP запросы" --> GW
+    
+    GW -- "POST /analyze" --> S1
+    GW -- "GET /analytics" --> S2
+    GW -- "GET /samples" --> S3
+    
+    S1 -- "Сохраняет результаты" --> DB
+    S1 -- "Вызывает" --> ExtAPI
+    
+    S2 -- "Анализирует данные" --> DB
+    
+    S3 -- "Кеширует демо" --> Cache
+    S3 -- "Читает данные" --> DB
+    
+    style UI fill:#e1f5fe
+    style GW fill:#f3e5f5
+    style S1 fill:#e8f5e8
+    style S2 fill:#fff3e0
+    style S3 fill:#fce4ec
+    style DB fill:#bbdefb
+    style Cache fill:#ffccbc
+    style ExtAPI fill:#d1c4e9
+```
+
+</details>
+
+
 
 ### 🏗️ **Технические особенности:**
 
@@ -107,43 +231,3 @@ DevOps:
 4. **Современные инструменты:** DeepSeek помогает с рутиной (тесты, фронтенд), освобождая время для архитектурных решений
 
 
----
-
-
-```mermaid
-
-graph TB
-    subgraph Frontend
-        React[React App]
-    end
-    
-    subgraph Backend
-        Gateway[API Gateway]
-    end
-    
-    subgraph Microservices
-        Analyze[analyze-service]
-        Analytics[analytics-service]
-        Sample[sample-service]
-    end
-    
-    subgraph Databases
-        PostgreSQL[(PostgreSQL)]
-        Redis[["Redis"]]
-    end
-    
-    User[Пользователь] --> React
-    React --> Gateway
-    
-    Gateway --> Analyze
-    Gateway --> Analytics
-    Gateway --> Sample
-    
-    Analyze --> PostgreSQL
-    Analyze --> External[Imagga API]
-    
-    Analytics --> PostgreSQL
-    Sample --> PostgreSQL
-    Sample --> Redis
-
-```
