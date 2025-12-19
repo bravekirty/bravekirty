@@ -34,7 +34,7 @@ def build_project(idea: Concept) -> DeployedSystem:
 | 🧩 | Проект | Демо | Код | Технологии | Что внутри |
 |-|--------|------|-----|------------|------------|
 | 🌙 | [Форум **Night Coder**](https://nightcoder.rdeaps.com) | [👉 Демо](https://nightcoder.rdeaps.com) |  [GitHub](https://github.com/bravekirty/NightCoder) | `Django` `PostgreSQL` `Docker` `CI/CD` | **[SOLID](https://github.com/bravekirty/NightCoder/blob/main/django_forum/core/SOLID.md)**, тесты 85%+, модули |
-| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **[Микросервисы](https://github.com/bravekirty/NightCoder/blob/main/django_forum/core/SOLID.md)**, async, AI анализ |
+| 🖼️ | [**Image Tag Analyzer**](https://imagetaganalyzer.rdeaps.com) |  [👉 Демо](https://imagetaganalyzer.rdeaps.com) |  [GitHub](https://github.com/bravekirty/ImageTagAnalyzer) | `FastAPI` `K8s` `React` `Redis` | **[Микросервисы](https://github.com/bravekirty#-%D1%81%D1%85%D0%B5%D0%BC%D0%B0-%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D0%BD%D0%BE%D0%B9-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B)**, async, AI анализ |
 
 </div>
 
