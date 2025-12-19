@@ -1,3 +1,6 @@
+
+
+
 # Тарасов Кирилл | Python Backend Developer | 17 лет
 
 *Создаю работающие приложения из идей. Полный цикл: от архитектуры до продукта, работающего на VPS*
@@ -106,6 +109,7 @@ DevOps:
 
 ---
 
+
 ```mermaid
 
 graph TB
@@ -118,30 +122,28 @@ graph TB
     end
     
     subgraph Microservices
-        Sample[sample-service]
         Analyze[analyze-service]
         Analytics[analytics-service]
+        Sample[sample-service]
     end
     
     subgraph Databases
         PostgreSQL[(PostgreSQL)]
-        Redis[[Redis]]
+        Redis[["Redis"]]
     end
     
     User[Пользователь] --> React
     React --> Gateway
     
-    Gateway --> Sample
     Gateway --> Analyze
     Gateway --> Analytics
+    Gateway --> Sample
     
-    Sample --> PostgreSQL
-    Sample --> Redis
+    Analyze --> PostgreSQL
+    Analyze --> External[Imagga API]
     
     Analytics --> PostgreSQL
-    Analyze --> PostgreSQL
-    
-    Analyze -.-> Analytics
-    Analyze -.-> Sample
+    Sample --> PostgreSQL
+    Sample --> Redis
 
 ```
