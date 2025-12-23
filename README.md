@@ -18,7 +18,16 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 ```
 
-**Основной стек:** `Python` `Django` `FastAPI` `PostgreSQL` `Docker` `K8s` `Nginx` `Gunicorn` `VPS`
+**Основной стек:** 
+<img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" />
+<img alt="Django" src="https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat-square" />
+<img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" />
+<img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square" />
+<img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square" />
+<img alt="K8s" src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square" />
+<img alt="Nginx" src="https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white&style=flat-square" />
+<img alt="Gunicorn" src="https://img.shields.io/badge/-Gunicorn-499848?logo=gunicorn&logoColor=white&style=flat-square" />
+<img alt="VPS" src="https://img.shields.io/badge/-VPS-4285F4?logo=ubuntu&logoColor=white&style=flat-square" />
 
 [![Telegram](https://img.shields.io/badge/Telegram-@bravekirty-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bravekirty)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B7_909_655_2008-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+79096552008)  
@@ -238,11 +247,11 @@ graph TB
 
 | Категория | Технологии |
 |-----------|------------|
-| **Backend** | Python, Django, Django REST Framework, FastAPI, SQLAlchemy, Pydantic |
-| **Databases** | PostgreSQL, Redis, ORM оптимизация, миграции |
-| **DevOps** | Docker, Docker Compose, Kubernetes (Minikube), Nginx, Gunicorn, VPS |
-| **Frontend** | HTML/CSS, JavaScript, Bootstrap, React (базово), Tailwind CSS |
-| **Tools** | Git, GitHub Actions (CI/CD), Poetry, Ruff, pytest, Linux basics |
+| **Backend** | <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" /> <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat-square" /> <img alt="Django REST Framework" src="https://img.shields.io/badge/-Django_REST_Framework-092E20?logo=django&logoColor=white&style=flat-square" /> <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" /> <img alt="SQLAlchemy" src="https://img.shields.io/badge/-SQLAlchemy-D71F00?logo=sqlalchemy&logoColor=white&style=flat-square" /> <img alt="Pydantic" src="https://img.shields.io/badge/-Pydantic-E92063?logo=pydantic&logoColor=white&style=flat-square" /> |
+| **Databases** | <img alt="PostgreSQL" src="https://img.shields.io/badge/-PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square" /> <img alt="Redis" src="https://img.shields.io/badge/-Redis-DC382D?logo=redis&logoColor=white&style=flat-square" /> <img alt="SQLAlchemy" src="https://img.shields.io/badge/-SQLAlchemy-3776AB?logo=python&logoColor=white&style=flat-square" /> |
+| **DevOps** | <img alt="Docker" src="https://img.shields.io/badge/-Docker-2496ED?logo=docker&logoColor=white&style=flat-square" /> <img alt="Docker Compose" src="https://img.shields.io/badge/-Docker_Compose-2496ED?logo=docker&logoColor=white&style=flat-square" /> <img alt="Kubernetes" src="https://img.shields.io/badge/-Kubernetes-326CE5?logo=kubernetes&logoColor=white&style=flat-square" /> <img alt="Nginx" src="https://img.shields.io/badge/-Nginx-009639?logo=nginx&logoColor=white&style=flat-square" /> <img alt="Gunicorn" src="https://img.shields.io/badge/-Gunicorn-499848?logo=gunicorn&logoColor=white&style=flat-square" /> <img alt="VPS" src="https://img.shields.io/badge/-VPS-4285F4?logo=ubuntu&logoColor=white&style=flat-square" /> |
+| **Frontend** | <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?logo=html5&logoColor=white&style=flat-square" /> <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?logo=css3&logoColor=white&style=flat-square" /> <img alt="JavaScript" src="https://img.shields.io/badge/-JavaScript-F7DF1E?logo=javascript&logoColor=black&style=flat-square" /> <img alt="Bootstrap" src="https://img.shields.io/badge/-Bootstrap-7952B3?logo=bootstrap&logoColor=white&style=flat-square" /> <img alt="React" src="https://img.shields.io/badge/-React-61DAFB?logo=react&logoColor=black&style=flat-square" /> <img alt="Tailwind CSS" src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white&style=flat-square" /> |
+| **Tools** | <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square" /> <img alt="GitHub Actions" src="https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square" /> <img alt="Poetry" src="https://img.shields.io/badge/-Poetry-60A5FA?logo=poetry&logoColor=white&style=flat-square" /> <img alt="Black" src="https://img.shields.io/badge/-Black-000000?logo=black&logoColor=white&style=flat-square" /> <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?logo=pytest&logoColor=white&style=flat-square" /> <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square" /> |
 | **Архитектура** | SOLID, Clean Code, Микросервисы, Repository Pattern, API Design |
 
 
@@ -271,7 +280,7 @@ graph TB
 **Мой подход:**
 1. **Курсы как старт:** беру структуру и основы
 3. **Документация & StackOverflow:** для поиска ответов на свои вопросы
-4. **Пет-проекты как полигон:** применяю на практике
+4. **Пет-проекты как полигон:** применяю навыки на практике
 5. **Code review самому себе:** регулярно рефакторю старый код
 
 **Что изучаю сейчас:**
