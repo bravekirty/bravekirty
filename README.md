@@ -2,23 +2,7 @@
 
 *Создаю работающие приложения из идей. Полный цикл: от архитектуры до продукта, работающего на VPS*
 
-```python
-# Мой подход к разработке:
-def build_project(idea: Concept) -> DeployedSystem:
-    """
-    От проектирования до production-деплоя.
-    """
-    architecture = design_architecture()  # SOLID, Clean Code, Микросервисы, IaC
-    backend = implement_backend()         # Python, Django/FastAPI, PostgreSQL
-    tests = optimize_and_test()           # Pytest, CI/CD, 85%+ coverage
-    containers = containerize()           # Docker, Docker Compose
-    production = deploy_to_production()   # VPS, Gunicorn, Nginx, SSL
-    
-    return system_live_on_server()        # nightcoder.rdeaps.com | imagetaganalyzer.rdeaps.com
-
-```
-
-**Основной стек:** 
+**Основной стек:**<br>
 <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?logo=python&logoColor=white&style=flat-square" />
 <img alt="Django" src="https://img.shields.io/badge/-Django-092E20?logo=django&logoColor=white&style=flat-square" />
 <img alt="FastAPI" src="https://img.shields.io/badge/-FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square" />
@@ -29,6 +13,8 @@ def build_project(idea: Concept) -> DeployedSystem:
 <img alt="Gunicorn" src="https://img.shields.io/badge/-Gunicorn-499848?logo=gunicorn&logoColor=white&style=flat-square" />
 <img alt="VPS" src="https://img.shields.io/badge/-VPS-4285F4?logo=ubuntu&logoColor=white&style=flat-square" />
 
+
+**Контакты:**<br>
 [![Telegram](https://img.shields.io/badge/Telegram-@bravekirty-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/bravekirty)
 [![WhatsApp](https://img.shields.io/badge/WhatsApp-%2B7_909_655_2008-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+79096552008)  
 [![Gmail](https://img.shields.io/badge/Gmail-bravekirty@gmail.com-4285F4?style=for-the-badge&logo=gmail&logoColor=white)](mailto:bravekirty@gmail.com)
@@ -49,6 +35,8 @@ def build_project(idea: Concept) -> DeployedSystem:
 
 ---
 
+<details>
+<summary><strong>🌙 Описание проекта Night Coder Django форум (нажми чтобы развернуть)</strong></summary>
 ## 🌙 Night Coder Django форум
 
 ![CI/CD](https://github.com/bravekirty/NightCoder/actions/workflows/ci.yml/badge.svg)
@@ -115,8 +103,12 @@ DevOps:
 4. **Современные инструменты:** DeepSeek помогает с рутиной (тесты, фронтенд), освобождая время для архитектурных решений.
 
 
+</details>
+
 ---
 
+<details>
+<summary><strong>🖼️ Описание проекта Image Tag Analyzer (нажми чтобы развернуть)</strong></summary>
 ## 🖼️ Image Tag Analyzer
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.116-009689?logo=fastapi)
@@ -240,7 +232,9 @@ graph TB
    - Временное отключение Redis для гарантии свежих данных.
    - Очистка БД перед демо-загрузкой чтобы избежать использования устаревших записей.
    - Mock версия ответа с Imagga вместо реального запроса чтобы не тратить запросы в пустую.
-  
+
+</details>
+
 ---
 
 ## 🔧 Технические навыки
@@ -254,26 +248,6 @@ graph TB
 | **Tools** | <img alt="Git" src="https://img.shields.io/badge/-Git-F05032?logo=git&logoColor=white&style=flat-square" /> <img alt="GitHub Actions" src="https://img.shields.io/badge/-GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square" /> <img alt="Poetry" src="https://img.shields.io/badge/-Poetry-60A5FA?logo=poetry&logoColor=white&style=flat-square" /> <img alt="Black" src="https://img.shields.io/badge/-Black-000000?logo=black&logoColor=white&style=flat-square" /> <img alt="Pytest" src="https://img.shields.io/badge/-Pytest-0A9EDC?logo=pytest&logoColor=white&style=flat-square" /> <img alt="Linux" src="https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=black&style=flat-square" /> |
 | **Архитектура** | SOLID, Clean Code, Микросервисы, Repository Pattern, API Design |
 
-
-## 💼 Опыт работы
-
-### 💻 Фриланс (2024)
-
-**Сайт для коллегии медиаторов — [mediacja.by](https://mediacja.by/)**
-- Полный цикл: от обсуждения с заказчиком до запуска на домене
-- Чистая верстка (HTML5, CSS3, Flexbox)
-- Адаптивный дизайн для всех устройств
-- Система добавления новых сотрудников
-- Развертывание на PaaS с кастомным доменом
-
-
-### Не разработка, но ценный опыт
-
-#### 🚶 Курьер-пешеход (2024)
-*Доставка заказов по городу*
-
-#### 🧑‍🏫 Учитель программирования для детей (2023)
-*Проводил мастер-классы по основам 3D-моделирования и созданию игр в Scratch*
 
 ## 📚 Как я учусь
 
